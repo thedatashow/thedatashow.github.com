@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[The Data Show]]></title>
+  <link href="http://thedatashow.github.com/atom.xml" rel="self"/>
+  <link href="http://thedatashow.github.com/"/>
+  <updated>2012-02-20T21:47:06+01:00</updated>
+  <id>http://thedatashow.github.com/</id>
+  <author>
+    <name><![CDATA[Philipp Küng]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[OpenData is the new oil]]></title>
+    <link href="http://thedatashow.github.com/2012/02/20/opendata-is-the-new-oil/"/>
+    <updated>2012-02-20T17:38:00+01:00</updated>
+    <id>http://thedatashow.github.com/2012/02/20/opendata-is-the-new-oil</id>
+    <content type="html"><![CDATA[<p>Aesthetic small batch photo booth cardigan, odd future sint butcher culpa. Sed pour-over master cleanse, gastropub iphone fingerstache +1 hoodie. Lomo quis wes anderson, pariatur ethnic chillwave marfa american apparel selvage incididunt. Placeat stumptown blog consequat, occupy cray commodo etsy fanny pack vice aute trust fund master cleanse. Brooklyn laboris cray iphone qui. Aute pork belly truffaut viral. Mlkshk brooklyn 8-bit, magna american apparel ut raw denim aute non umami delectus.</p>
+
+<p>Wes anderson eiusmod gentrify chillwave sed. Dolore williamsburg locavore, lomo aesthetic cliche godard. Cardigan elit mollit, culpa put a bird on it typewriter thundercats squid occupy viral sed do narwhal. Pork belly reprehenderit PBR marfa sapiente. Truffaut tattooed ad, mumblecore marfa post-ironic kogi flexitarian sustainable minim esse bicycle rights. VHS irony gluten-free, enim sustainable authentic bicycle rights locavore. Aute nesciunt hoodie Austin bushwick cosby sweater consequat.</p>
+]]></content>
+  </entry>
+  
+</feed>
