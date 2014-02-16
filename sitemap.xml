@@ -1,15 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for post in site.posts %}
     <url>
-        <loc>http://thedatashow.github.com/2012/02/20/opendata-is-the-new-oil/</loc>
-        <lastmod>2012-02-20T17:39:13+01:00</lastmod>
+        <loc>{{ site.url }}/{{ post.url | remove: 'index.html' }}</loc>
+        <lastmod>{{ post.date | datetime | date_to_xmlschema }}</lastmod>
     </url>
-    <url>
-        <loc>http://thedatashow.github.com/blog/archives/</loc>
-        <lastmod>2012-02-20T17:39:13+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://thedatashow.github.com/</loc>
-        <lastmod>2012-02-20T17:39:13+01:00</lastmod>
-    </url>
+    {% endfor %}
 </urlset>
