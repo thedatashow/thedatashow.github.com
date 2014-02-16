@@ -1,0 +1,50 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+photo: "https://secure.gravatar.com/avatar/e40b39d69286d7eaf3013c703baec6dd?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"
+url: http://thedatashow.com
+title: "The Data Show"
+author: "Stefan Oderbolz and Philipp Küng"
+
+# Default date format is "ordinal" (resulting in "July 22nd 2007")
+# You can customize the format as defined in
+# http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
+# Additionally, %o will give you the ordinal representation of the day
+date_format: "ordinal"
+
+# RSS / Email (optional) subscription links (change if using something like Feedburner)
+subscribe_rss: http://thedatashow.com/feed.rss
+subscribe_email:
+# RSS feeds can list your email address if you like
+email: hi@thedatashow.com
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# If publishing to a subdirectory as in http://site.com/project set 'root: /project'
+root: /
+permalink: /:title.html
+code_dir: downloads/code
+category_dir: blog/categories
+markdown: rdiscount
+pygments: true # default python pygments have been replaced by pygments.rb
+safe: true
+lsi: false
+
+paginate: 1          # Posts per page on the blog index
+excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
+
+titlecase: false       # Converts page and post titles to tilecase
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+# Disqus Comments
+disqus_short_name: thedatashow
+disqus_show_comment_count: false
+
+# Google Analytics
+google_analytics_tracking_id: UA-4050995-6
