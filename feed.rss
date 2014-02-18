@@ -35,7 +35,7 @@ layout: nil
         <itunes:author><![CDATA[{{ site.author | strip_html }}]]></itunes:author>
         <itunes:subtitle><![CDATA[{{ site.subtitle }}]]></itunes:subtitle>
         <itunes:summary><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
-        <enclosure url="{{ site.files_url }}{{ post.url }}.mp3" type="audio/mp3" length="{{ post.length }}" />
+        <enclosure url="{{ site.files_url }}{{ post.url | remove: '.html' }}.mp3" type="audio/mp3" length="{{ post.length }}" />
         <itunes:image href="{{ site.url }}{{ site.photo }}"></itunes:image>
         <itunes:duration>{{ post.duration }}</itunes:duration>
         <content:encoded>{{ }}</content:encoded>

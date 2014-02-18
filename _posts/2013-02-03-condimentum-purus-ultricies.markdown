@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Condimentum Purus Ultricies"
-duration: 18:24
-length: 17068092
+duration: 00:10
+length: 171698
 comments: true
-link: episode1.mp3
 ---
 Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 
