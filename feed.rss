@@ -1,0 +1,46 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title><![CDATA[{{ site.title }}]]></title>
+    <link>{{ site.url }}</link>
+    <language>en-us</language>
+    <copyright><![CDATA[{{ site.author | strip_html }}]]></copyright>
+    <itunes:author><![CDATA[{{ site.author | strip_html }}]]></itunes:author>
+    <itunes:subtitle><![CDATA[{{ site.subtitle }}]]></itunes:subtitle>
+    <itunes:summary><![CDATA[{{ site.description | strip_html }}]]></itunes:summary>
+    <description><![CDATA[{{ site.description }}]]></description>
+    <itunes:explicit>no</itunes:explicit>
+
+    <itunes:owner>
+      <itunes:name>Philipp Küng</itunes:name>
+      <itunes:email>thedatashow@philippkueng.ch</itunes:email>
+    </itunes:owner>
+
+    <itunes:image href="{{ site.url }}{{ site.photo }}" />
+    <itunes:keywords>data, opendata, ddj, Stefan Oderbolz, Philipp Küng</itunes:keywords>
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+
+    {% for post in site.posts %}
+      <item>
+        <title><![CDATA[{{ post.title | cdata_escape }}]]></title>
+        <description><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]></description>
+        <link>{{ site.url }}{{ post.url }}</link>
+        <guid>{{ site.url }}{{ post.url }}</guid>
+        <pubDate>{{ post.date | date: "%a, %-d %b %Y %H:%M:%S +0100" }}</pubDate>
+        <itunes:author><![CDATA[{{ site.author | strip_html }}]]></itunes:author>
+        <itunes:subtitle><![CDATA[{{ site.subtitle }}]]></itunes:subtitle>
+        <itunes:summary><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]></itunes:summary>
+        <enclosure url="{{ site.files_url }}{{ post.url }}.mp3" type="audio/mp3" length="{{ post.length }}" />
+        <itunes:image href="{{ site.url }}{{ site.photo }}"></itunes:image>
+        <itunes:duration>{{ post.duration }}</itunes:duration>
+        <content:encoded>{{ }}</content:encoded>
+      </item>
+    {% endfor %}
+
+  </channel>
+</rss>
