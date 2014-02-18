@@ -4,9 +4,11 @@
 
 photo: "/images/the-data-show-logo_large.png"
 url: http://thedatashow.com
+files_url: http://files.thedatashow.com
 title: "The Data Show"
 subtitle: "A podcast about data related topics"
 author: "Stefan Oderbolz and Philipp Küng"
+description: ""
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
