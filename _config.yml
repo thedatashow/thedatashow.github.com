@@ -10,6 +10,18 @@ subtitle: "A podcast about data related topics"
 author: "Stefan Oderbolz and Philipp Küng"
 description: ""
 
+stefan_photo: https://2.gravatar.com/avatar/28183e09aff101bc1f80c7e7a1917d83?d=https%3A%2F%2Fidenticons.github.com%2F0686c522c1ad16aed57ca4669a35dd2a.png&r=x&s=460
+stefan_name: "Stefan Oderbolz"
+stefan_description: "open data enthusiast. software engineer. works @liip. develops @kortgame. maps for @openstreetmap. reads book. watches tv."
+stefan_twitter: "https://twitter.com/odi"
+stefan_github: "https://github.com/metaodi"
+
+philipp_photo: https://avatars.githubusercontent.com/u/204226
+philipp_name: "Philipp Küng"
+philipp_description: "Developer @liip, @opendataCH enthusiast, @rhokch'er, Schw.-StVer, running @sharelephant, developing @bitfondue and @trainshare. Canada Fan"
+philipp_twitter: "https://twitter.com/philippkueng"
+philipp_github: "https://github.com/philippkueng"
+
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
