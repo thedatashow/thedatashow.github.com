@@ -7,13 +7,16 @@ root, a, p {
 }
 #masthead .container {
     text-align: center;
-    padding: 80px 0px 36px 0px;
+    padding: 30px 0px 36px 0px;
 }
 
-.navbar-fixed-top {
+.navbar-static-top {
     margin-bottom: 0px;
-    background: #fff;
     box-shadow: 0px 0px 5px #555;
+}
+
+header .icon-bar {
+    background-color: #3498db;
 }
 
 #content {
@@ -40,6 +43,10 @@ footer div.row h2 {
     border-bottom: solid 3px #ccc;
     padding-bottom: 10px;
     font-size: 24px;
+}
+
+footer div.row div {
+    text-align: center;
 }
 
 footer img {

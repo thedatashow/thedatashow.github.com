@@ -1,9 +1,7 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
 <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %}>
-  <header role="banner" class="navbar navbar-fixed-top" id="top">
-  	{% include header.html %}
-  </header>
+  {% include header.html %}
   <div id="masthead">
     <div class="container">
       <img width="300px" src="{{ site.photo }}">
