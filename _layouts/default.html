@@ -4,6 +4,11 @@
   <header role="banner" class="navbar navbar-static-top" id="top">
   	{% include header.html %}
   </header>
+  <div id="masthead">
+    <div class="container">
+      <img width="300px" src="{{ site.photo }}">
+    </div>
+  </div>
   <div id="content" role="main">
     <div class="container">
       {{ content | expand_urls: root_url }}
