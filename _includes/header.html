@@ -1,5 +1,15 @@
 <div class="container">
   <div class="navbar-header">
-    <a href="{{ root_url }}">{{ site.title }}</a>
+    <a href="{{ root_url }}" class="navbar-brand">{{ site.title }}</a>
   </div>
+  <nav role="navigation">
+  	<ul class="nav navbar-nav">
+  		<li>
+  			<a href="{{ site.url }}{{ site.subscribe_rss }}">Subscribe</a>
+  		</li>
+		  <li>
+  			<a href="#hosts">Hosts</a>
+  		</li>
+  	</ul>
+  </nav>
 </div>

@@ -7,17 +7,13 @@ root, a, p {
 }
 #masthead .container {
     text-align: center;
-    padding: 30px 0px 36px 0px;
+    padding: 80px 0px 36px 0px;
 }
 
-.navbar {
-    box-shadow: 0px 0px 5px #999;
-    padding-top: 10px;
+.navbar-fixed-top {
     margin-bottom: 0px;
-}
-.navbar-header {
-    font-weight: bold;
-    font-size: 1.3498em;
+    background: #fff;
+    box-shadow: 0px 0px 5px #555;
 }
 
 #content {
