@@ -29,7 +29,7 @@ philipp_github: "https://github.com/philippkueng"
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: http://thedatashow.com/feed.rss
+subscribe_rss: /feed.rss
 subscribe_email:
 # RSS feeds can list your email address if you like
 email: hi@thedatashow.com
