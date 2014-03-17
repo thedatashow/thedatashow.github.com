@@ -3,7 +3,7 @@ root, a, p {
 }
 
 #masthead {
-    background: #3498db;
+    background: #ecf0f1;
 }
 #masthead .container {
     text-align: center;
@@ -30,7 +30,7 @@ header .icon-bar {
 
 footer {
     padding: 14px 0px 14px 0px;
-    background: #ebedef;
+    background: #ECF0F1;
 }
 
 footer div.container > h2 {
@@ -55,4 +55,13 @@ footer img {
     border: solid 10px rgba(255, 255, 255, .8);
     width: 220px;
     height: 220px;
+}
+
+/* Logo */
+#logo {
+    width: 300px;
+    height: 300px;
+}
+#logo path, #logo g {
+    fill: #2980b9;
 }
