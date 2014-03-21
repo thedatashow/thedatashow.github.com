@@ -1,6 +1,6 @@
-# The Data Show
+# The Data Show 
 
-[![Topics for the show](https://badge.waffle.io/thedatashow/thedatashow.github.com?label=ready&title=Ready)](http://waffle.io/thedatashow/thedatashow.github.com)
+[![Topics for the show](https://badge.waffle.io/thedatashow/thedatashow.github.com.png?label=ready&title=Topics)](http://waffle.io/thedatashow/thedatashow.github.com)
 
 ## Create local editing setup
 
