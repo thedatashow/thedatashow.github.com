@@ -1,5 +1,7 @@
 # The Data Show
 
+[![Topics for the show](https://badge.waffle.io/thedatashow/thedatashow.github.com?label=ready&title=Ready)](http://waffle.io/kort/kort)
+
 ## Create local editing setup
 
 1. Make sure the have ruby > 1.9.3 installed together with bundler
